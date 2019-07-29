@@ -1,0 +1,19 @@
+/*h1{
+	background-color: black;
+}
+*/
+
+div{
+	border: 10px solid red;/*设置border样式*/
+	width: 10%;/*设置宽度样式*/
+	height: 100px;/*设置高度样式*/
+	color: black;/*设置文字颜色样式*/
+	font-size: 50px;/*设置文字大小样式*/
+	background-color: royalblue;/*设置标签背景样式*/
+	display:inline;/*转成行内元素*/
+}
+
+span{
+	/*display: block;*//*转成块级元素*/
+	display: none;/*隐藏*/
+}

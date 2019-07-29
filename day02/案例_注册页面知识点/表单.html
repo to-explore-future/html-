@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--表单:<form>-->
+		<form action="#" method="post">
+			用户名:<input type="text" name="username" value="老王"/><br/>
+			密码:<input type="password" name="pwd" value="123321"/><br />
+			您的性别是:
+				男<input type="radio" name="sex" value="1" checked/>&nbsp;&nbsp;&nbsp;
+				女<input type="radio" name="sex" value="0"/><br />
+			您的爱好是:
+				抽烟<input type="checkbox" name="hobby" value="01" checked="checked"/>&nbsp;&nbsp;&nbsp;
+				喝酒<input type="checkbox" name="hobby" value="02" checked/>&nbsp;&nbsp;&nbsp;
+				烫头<input type="checkbox" name="hobby" value="03"/><br />
+			
+			您的头像:
+				<input type="file" name="icon"/><br />
+				
+			您的简介:<textarea rows="10" cols="100" name="js">
+					这是我的简历
+			</textarea><br />
+			
+			您住在哪个省?
+			<select name="province">
+				<!--select的子标签option-->
+				<option value="1">河北省</option>
+				<option value="2" selected="selected">福建省</option>
+				<option value="3">黑龙江省</option>
+				<option value="4">山东省</option>
+				
+			</select><br />
+			您住在哪个市?
+				<select name="city">
+				<!--select的子标签option-->
+				<option value="001">天津市</option>
+				<option value="401" selected>潍坊市</option>
+				<option value="402">威海市</option>
+				<option value="403">烟台市</option>
+				<option value="404">青岛市</option>
+				
+			</select><br />
+			
+			
+			<input type="button" value="普通按钮"/>
+			
+			<input type="reset" value="reset"/>
+			
+			<input type="submit" value="注册"/>
+			
+			<input type="image"  src="../img/header.jpg" width="100px" height="50px"/>
+			
+			
+			
+			
+		</form>
+	</body>
+</html>
